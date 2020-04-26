@@ -5,10 +5,11 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
+    @condition = 'tattered'
   end
   
   def cobble
-    puts
+    @condition = 'new'
   end
   
   
